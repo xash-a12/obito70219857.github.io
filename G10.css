@@ -1,0 +1,632 @@
+body {
+    background-color: white;
+}
+
+#start {
+    display: flex;
+    flex-direction: row;
+}
+
+#search {
+    margin-left: 420px;
+    margin-top: 20px;
+    background-color: lightgrey;
+    border-color: white;
+}
+
+#triplesstore {
+    margin-left: 100px;
+    margin-top: 20px;
+    font-weight: bolder;
+    color: red;
+}
+
+#line {
+    width: 100%;
+    height: 2px;
+    background-color: red;
+}
+
+#step2 {
+    margin-top: 0px;
+    margin-left: 0px;
+    display: flex;
+    flex-direction: row;
+}
+
+#step3 {
+    margin-top: 180px;
+}
+
+#step4 {
+    padding-top: 11px;
+    padding-left: 40px;
+    padding-right: 12px;
+    padding-bottom: 11px;
+    margin-right: 30px;
+    margin-top: 20px;
+    background-color: crimson;
+    width: 105px;
+    margin-left: 83px;
+    color: white;
+    font-weight: bolder;
+}
+
+#step5 {
+    margin-top: 60px;
+    margin-left: 110px;
+}
+
+#step6 {
+    font-weight: bolder;
+    font-size: 25px;
+    margin-left: 600px;
+    margin-top: 100px;
+    margin-bottom: 0px;
+}
+
+#step7 {
+    margin-top: 5px;
+    margin-left: 669.5px;
+    width: 90.5px;
+    height: 3.5px;
+    background-color: crimson;
+}
+
+#lines {
+    display: flex;
+    flex-direction: row;
+    margin-top: 40px;
+}
+
+.step8 {
+    width: 250px;
+    background-color: lightgrey;
+    height: 5px;
+    margin-bottom: 0px;
+    margin-left: 110px;
+    margin-right: 0px;
+}
+
+.step9 {
+    width: 250px;
+    background-color: lightgrey;
+    height: 5px;
+    margin-bottom: 0px;
+    margin-left: 65px;
+    margin-right: 0px;
+}
+
+.step10 {
+    width: 250px;
+    background-color: lightgray;
+    height: 5px;
+    margin-bottom: 0px;
+    margin-left: 65px;
+    margin-right: 0px;
+}
+
+.step11 {
+    width: 250px;
+    background-color: lightgrey;
+    height: 5px;
+    margin-bottom: 0px;
+    margin-left: 65px;
+    margin-right: 20px;
+}
+
+#step12 {
+    display: flex;
+    flex-direction: row;
+    margin-top: 40px;
+    margin-bottom: 0px;
+}
+
+#bat {
+    height: 200px;
+    margin-left: 110px;
+    width: 200px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding-left: 26.5px;
+    padding-right: 26.5px;
+    background-color: lightgray;
+    margin-bottom: 0px;
+}
+
+#football {
+    height: 200px;
+    margin-left: 65px;
+    width: 200px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding-left: 26.5px;
+    padding-right: 26.5px;
+    background-color: lightgray;
+    margin-bottom: 0px;
+}
+
+#ball {
+    height: 200px;
+    margin-left: 65px;
+    width: 200px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding-left: 26.5px;
+    padding-right: 26.5px;
+    background-color: lightgray;
+    margin-bottom: 0px;
+}
+
+#shoes1 {
+    height: 200px;
+    margin-left: 65px;
+    width: 200px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding-left: 26.5px;
+    padding-right: 26.5px;
+    background-color: lightgray;
+    margin-bottom: 0px;
+}
+
+#step13 {
+    margin-top: 0px;
+    display: flex;
+    flex-direction: row;
+    font-weight: 500;
+    font-size: 15;
+    margin-bottom: 0px;
+}
+
+#allstars {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 0px;
+    margin-top: 0px;
+}
+
+#stars1 {
+    margin-top: 0px;
+    margin-left: 110px;
+    margin-bottom: 0px;
+}
+
+#stars2 {
+    margin-top: 0px;
+    margin-left: 230px;
+    margin-bottom: 0px;
+}
+
+#stars3 {
+    margin-top: 0px;
+    margin-left: 230px;
+    margin-bottom: 0px;
+}
+
+#stars4 {
+    margin-top: 0px;
+    margin-left: 230px;
+    margin-bottom: 0px;
+}
+
+#red {
+    color: red;
+}
+
+#price {
+    margin: 5px;
+    color: black;
+    font-size: 22;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 0px;
+}
+
+#step14 {
+    display: flex;
+    flex-direction: row;
+    margin-top: 70px;
+}
+
+#jersey {
+    height: 200px;
+    margin-left: 280px;
+    width: 200px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding-left: 26.5px;
+    padding-right: 26.5px;
+    background-color: lightgray;
+    margin-bottom: 0px;
+}
+
+#shoes2 {
+    height: 200px;
+    margin-left: 380px;
+    width: 200px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding-left: 26.5px;
+    padding-right: 26.5px;
+    background-color: lightgray;
+    margin-bottom: 0px;
+}
+
+#stars5 {
+    margin-top: 8px;
+    margin-left: 280px;
+    margin-bottom: 0px;
+}
+
+#stars6 {
+    margin-top: 8px;
+    margin-left: 542px;
+    margin-bottom: 0px;
+}
+
+#step15 {
+    margin-top: 8px;
+    display: flex;
+    flex-direction: row;
+    font-weight: 500;
+    font-size: 15;
+    margin-bottom: 0px;
+}
+
+#step16 {
+    margin-top: 90px;
+    display: flex;
+    flex-direction: row;
+}
+
+#shoes3 {
+    height: 200px;
+    margin-left: 80px;
+    width: 300px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    padding-left: 0.5px;
+    padding-right: 0.5px;
+    background-color: lightgray;
+    margin-bottom: 0px;
+}
+
+#shoes4 {
+    height: 200px;
+    margin-left: 180px;
+    width: 300px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    padding-left: 0.5px;
+    padding-right: 0.5px;
+    background-color: lightgray;
+    margin-bottom: 0px;
+}
+
+#shoes5 {
+    height: 200px;
+    margin-left: 180px;
+    width: 300px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    padding-left: 0.5px;
+    padding-right: 0.5px;
+    background-color: lightgray;
+    margin-bottom: 0px;
+}
+
+#step17 {
+    margin-top: 13px;
+    display: flex;
+    flex-direction: row;
+    font-weight: 500;
+    font-size: 15;
+    margin-bottom: 0px;
+}
+
+#stars7 {
+    margin-top: 8px;
+    margin-left: 84px;
+    margin-bottom: 0px;
+}
+
+#stars8 {
+    margin-top: 8px;
+    margin-left: 388px;
+    margin-bottom: 0px;
+}
+
+#stars9 {
+    margin-top: 8px;
+    margin-left: 393px;
+    margin-bottom: 0px;
+}
+
+#main {
+    display: flex;
+    flex-direction: row;
+    margin-top: 0px;
+    margin-left: 73px;
+}
+
+#sub1 {
+    margin-top: 80px;
+    padding-bottom: 160px;
+    padding-left: 156px;
+    background-color: #ffb3b2;
+}
+
+#watch {
+    height: 340px;
+    width: 300px;
+    margin-top: 0px;
+    margin-left: 0px;
+    margin-top: 80px;
+    padding-left: 60px;
+    padding-bottom: 20px;
+    background-color: #ff9a98;
+}
+
+#sub3 {
+    margin-top: 80px;
+    background-color: #ff9a98;
+}
+
+#details {}
+
+#details2 {
+    font-weight: 800;
+    font-size: 20;
+}
+
+#details3 {
+    font-size: 30;
+    font-weight: bolder;
+}
+
+#details4 {
+    font-weight: 800;
+    font-size: 20;
+}
+
+#details5 {
+    padding-top: 11px;
+    padding-left: 40px;
+    padding-right: 12px;
+    padding-bottom: 11px;
+    margin-right: 30px;
+    background-color: crimson;
+    width: 105px;
+    color: white;
+    font-weight: bolder;
+}
+
+#sub4 {
+    margin-top: 80px;
+    padding-bottom: 160px;
+    padding-left: 156px;
+    background-color: #ffb3b2;
+}
+
+#copy {
+    margin-top: 90px;
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 0px;
+}
+
+#copy1 {
+    margin-left: 175px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    padding-left: 20px;
+    padding-right: 20px;
+    background-color: whitesmoke;
+    border: solid;
+    border-width: 2px;
+    border-color: lightgray;
+}
+
+#cricketball1 {
+    border-radius: 70%;
+    height: 100px;
+    width: 100px;
+    margin-top: 15px;
+    margin-left: 88px;
+}
+
+#stars10 {
+    margin-left: 88px;
+}
+
+#e1 {
+    margin-top: 0px;
+    margin-left: 100px;
+    font-size: 80;
+    margin-bottom: 0px;
+    color: red;
+}
+
+#e2 {
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+#e3 {
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 15px;
+}
+
+#e4 {
+    margin-top: 13px;
+    font-weight: bolder;
+    font-size: 25;
+    margin-left: 62px;
+}
+
+#copy2 {
+    margin-left: 75px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    padding-left: 20px;
+    padding-right: 20px;
+    background-color: whitesmoke;
+    border: solid;
+    border-width: 2px;
+    border-color: lightgray;
+}
+
+#copy3 {
+    margin-left: 75px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    padding-left: 20px;
+    padding-right: 20px;
+    background-color: whitesmoke;
+    border: solid;
+    border-width: 2px;
+    border-color: lightgray;
+}
+
+#step20 {
+    font-weight: bolder;
+    font-size: 25px;
+    margin-left: 650px;
+    margin-top: 100px;
+    margin-bottom: 0px;
+}
+
+#step99 {
+    font-size: 25px;
+    margin-left: 650px;
+    margin-top: 100px;
+    margin-bottom: 0px;
+}
+
+#lastimages {
+    display: flex;
+    flex-direction: row;
+    margin-left: 180px;
+    margin-top: 120px;
+    margin-bottom: 0px;
+}
+
+#li1 {
+    height: 100px;
+    width: 100px;
+    margin-bottom: 0px;
+}
+
+#li2 {
+    height: 100px;
+    width: 100px;
+    margin-left: 137.5px;
+    margin-bottom: 0px;
+}
+
+#li3 {
+    height: 100px;
+    width: 100px;
+    margin-left: 137.5px;
+    margin-bottom: 0px;
+}
+
+#li4 {
+    height: 100px;
+    width: 100px;
+    margin-left: 137.5px;
+    margin-bottom: 0px;
+}
+
+#li5 {
+    height: 100px;
+    width: 100px;
+    margin-left: 137.5px;
+    margin-bottom: 0px;
+}
+
+#x {
+    display: flex;
+    flex-direction: row;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+#x1 {
+    font-weight: bolder;
+    margin-left: 400px;
+    margin-top: 120px;
+    font-size: 20;
+    margin-bottom: 0px;
+}
+
+#x2 {
+    color: red;
+    font-size: 24;
+    font-weight: bolder;
+    margin-left: 170px;
+    margin-top: 117px;
+    margin-bottom: 0px;
+}
+
+#x3 {
+    margin-left: 400px;
+    margin-bottom: 0px;
+    font-size: 20;
+}
+
+#x4 {
+    margin-left: 400px;
+    margin-bottom: 0px;
+    font-size: 20;
+}
+
+#x5 {
+    margin-left: 179px;
+    font-size: 20;
+    margin-bottom: 0px;
+}
+
+#x6 {
+    font-size: 20;
+    color: lightgrey;
+    margin-bottom: 0px;
+}
+
+#x7 {
+    display: flex;
+    flex-direction: row;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+#twitter {
+    margin-top: 27px;
+    margin-left: 100px;
+}
+
+#linkedin {
+    margin-top: 27px;
+    margin-left: 40px;
+}
+
+#github {
+    margin-top: 27px;
+    margin-left: 40px;
+}
+
+#login {
+    color: blue;
+    margin-left: 470px;
+}
+
+#whishlist {
+    color: blue;
+    margin-left: 20px;
+}
+
+#cart {
+    color: blue;
+    margin-left: 20px;
+}
